@@ -10,16 +10,15 @@ Employee
 Write a class called Employee (Employee.java) that models an employee at a company. 
 - Complete the main class EmployeeWages to create two Employee instances, print them, then test each of Employee's methods - see the comments for pseudocode in the main program
 - An Employee object should have the following fields:
-  -- name: employee's name
-  -- hourlyWage: how much money the Employee makes per hour
-  -- hoursWorked: how man hours the employy works in a given week
-
-- A Employee object should have the following methods:
+  - name: employee's name
+  - hourlyWage: how much money the Employee makes per hour
+  - hoursWorked: how man hours the employy works in a given week
+- An Employee object should have the following methods:
 
 ### Constructors
 - **public Employee(String name, double wage, int hours)**: Constructs a new employee object with the given name, wage and hours.  
-  -- Question to consider:
-     --- Since there is no default constructor (a constructor with NO parameters), what happens if you execute `Employee emp3 = new Employee();`
+  - Question to consider:
+     - Since there is no default constructor (a constructor with NO parameters), what happens if you execute `Employee emp3 = new Employee();`
 
 ### Accessors
 Don't forget, these need a return type :-)
