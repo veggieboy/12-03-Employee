@@ -16,9 +16,8 @@ Write a class called Employee (Employee.java) that models an employee at a compa
 - An Employee object should have the following methods:
 
 ### Constructors
-- **public Employee(String name, double wage, int hours)**: Constructs a new employee object with the given name, wage and hours.  
-  - Question to consider:
-     - Since there is no default constructor (a constructor with NO parameters), what happens if you execute `Employee emp3 = new Employee();`
+- **public Employee(String name, double wage, int hours)**: Constructs a new employee object with the given name, wage and hours.   
+  - Question to consider: Since there is no default constructor (a constructor with NO parameters), what happens if you execute `Employee emp3 = new Employee();`?
 
 ### Accessors
 Don't forget, these need a return type :-)
