@@ -40,4 +40,24 @@ public class Employee
   {
     return "name: "+name+", wage: $"+hourlyWage+", hours: "+hoursWorked;
   }
+  
+  public void setName(String newName)
+  {
+    name=newName;
+  }
+  
+  public void setWage(double newWage)
+  {
+    hourlyWage=newWage;
+  }
+  
+  public void setHours(int h)
+  {
+    hoursWorked=h;
+  }
+  
+  public void giveRaise()
+  {
+    hourlyWage=hourlyWage+1;
+  }
 }
