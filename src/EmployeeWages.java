@@ -1,6 +1,7 @@
 // placeholder for your main method
 public class EmployeeWages {
     public static void main(String[] args) {
+        // replace <put your name here> with your name!
         System.out.println("Student: <put your name here>");
         
         // Create two instances of class Employee emp1 & emp2
